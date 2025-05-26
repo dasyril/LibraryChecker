@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageButton
+            android:id="@+id/backButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="16dp"
+            android:layout_gravity="start"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Назад"
+            android:src="@drawable/ic_arrow_back" />
+
+        <ImageView
+            android:id="@+id/coverImageView"
+            android:layout_width="300dp"
+            android:layout_height="400dp"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter"
+            android:contentDescription="Обложка книги"
+            android:adjustViewBounds="true" />
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/authorTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Автор книги"
+            android:textSize="18sp"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/genreTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Жанр"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/descriptionTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Описание"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/countTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Доступно: 0"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/actionButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Забронировать" />
+
+        <LinearLayout
+            android:id="@+id/reservedByContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone" />
+
+    </LinearLayout>
+</ScrollView>

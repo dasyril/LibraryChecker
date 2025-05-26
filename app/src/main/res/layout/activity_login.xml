@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/emailEditText"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp">
+
+        <EditText
+            android:id="@+id/passwordEditText"
+            android:hint="Пароль"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingEnd="48dp" />
+
+        <ImageView
+            android:id="@+id/passwordToggle"
+            android:src="@drawable/ic_eye_closed"
+            android:contentDescription="Показать пароль"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="12dp"
+            android:clickable="true"
+            android:focusable="true" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/loginButton"
+        android:text="Войти"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp" />
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Зарегистрироваться" />
+
+</LinearLayout>

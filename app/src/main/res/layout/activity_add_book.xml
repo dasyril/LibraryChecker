@@ -1,0 +1,46 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/backButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="16dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Назад"
+            android:src="@drawable/ic_arrow_back" />
+
+        <EditText android:id="@+id/editTitle"
+            android:hint="Название" android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText android:id="@+id/editAuthor"
+            android:hint="Автор" android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText android:id="@+id/editGenre"
+            android:hint="Жанр" android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText android:id="@+id/editDescription"
+            android:hint="Описание" android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText android:id="@+id/editImageUrl"
+            android:hint="URL изображения" android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/editCount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Количество экземпляров"
+            android:inputType="number" />
+
+
+        <Button android:id="@+id/buttonAddBook"
+            android:text="Добавить" android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "607050009086",
+    "project_id": "library-checker-4439a",
+    "storage_bucket": "library-checker-4439a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:607050009086:android:12f9b7bd55cb0e817118af",
+        "android_client_info": {
+          "package_name": "com.example.librarychecker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDV1nMcha4mISnuhcEcolqDQ60OXNhAeEg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
